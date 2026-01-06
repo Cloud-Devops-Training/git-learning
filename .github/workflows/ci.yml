@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: Action-1
+    runs-on: Agent-1
 
     steps:
       - name: Checkout source code
