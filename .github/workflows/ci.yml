@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: Agent-1
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout source code
